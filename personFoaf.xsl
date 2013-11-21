@@ -14,23 +14,23 @@
    <xsl:if test="./field[@name='type'] = 'Person'">
      <foaf:Person>
       <xsl:if test="./field/@name = 'prov_source'">
-       <dc:source>
+       <dcterms:source>
         <xsl:attribute name="rdf:resource">
          <xsl:value-of select="./field[@name='prov_source']" />
         </xsl:attribute>
         <xsl:if test="./field/@name = 'prov_site_long'">
-         <dc:title><xsl:value-of select="./field[@name='prov_site_long']" /></dc:title>
+         <dcterms:title><xsl:value-of select="./field[@name='prov_site_long']" /></dcterms:title>
         </xsl:if>
         <xsl:if test="./field/@name = 'prov_site_short'">
-         <dc:alternative><xsl:value-of select="./field[@name='prov_site_short']" /></dc:alternative>
+         <dcterms:alternative><xsl:value-of select="./field[@name='prov_site_short']" /></dcterms:alternative>
         </xsl:if>
         <xsl:if test="./field/@name = 'prov_site_address'">
          <dc:source><xsl:value-of select="./field[@name='prov_site_address']" /></dc:source>
         </xsl:if>
         <xsl:if test="./field/@name = 'prov_site_tag'">
-         <dc:description><xsl:value-of select="./field[@name='prov_site_tag']" /></dc:description>
+         <dcterms:description><xsl:value-of select="./field[@name='prov_site_tag']" /></dcterms:description>
         </xsl:if>
-       </dc:source>
+       </dcterms:source>
       </xsl:if>
       <xsl:if test="./field/@name = 'name'">
        <foaf:name><xsl:value-of select="./field[@name='name']" /></foaf:name>
@@ -66,7 +66,7 @@
       </xsl:if>
       <xsl:for-each select="./field">
        <xsl:if test="./@name = 'document_history'">
-        <dc:hasVersion><xsl:value-of select="." /></dc:hasVersion>
+        <dcterms:hasVersion><xsl:value-of select="." /></dcterms:hasVersion>
        </xsl:if>
       </xsl:for-each>
       <xsl:if test="./field/@name = 'provider_source'">
@@ -77,11 +77,11 @@
        </dc:source>
       </xsl:if>
       <xsl:if test="./field/@name = 'prov_doc_last_update'">
-       <dc:dateSubmitted>
+       <dcterms:dateSubmitted>
         <dc:date>
          <xsl:value-of select="./field[@name='prov_doc_last_update']" />
         </dc:date>
-       </dc:dateSubmitted>
+       </dcterms:dateSubmitted>
       </xsl:if>
      </foaf:Person>
     </xsl:if>
