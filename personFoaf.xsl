@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
 <rdf:RDF
@@ -14,6 +13,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:for-each select="add/doc">
    <xsl:if test="./field[@name='type'] = 'Person'">
      <foaf:Person>
+      <xsl:if test="./field/@name = 'prov_source'">
+       <dc:source>
+  		<xsl:attribute name="rdf:resource">
+         <xsl:value-of select="./field[@name='prov_source']" />
+        </xsl:attribute>
+        <xsl:if test="./field/@name = 'prov_site_long'">
+         <dc:title><xsl:value-of select="./field[@name='prov_site_long']" /></dc:title>
+        </xsl:if>
+        <xsl:if test="./field/@name = 'prov_site_short'">
+         <dc:alternative><xsl:value-of select="./field[@name='prov_site_short']" /></dc:alternative>
+        </xsl:if>
+        <xsl:if test="./field/@name = 'prov_site_address'">
+         <dc:source><xsl:value-of select="./field[@name='prov_site_address']" /></dc:source>
+        </xsl:if>
+        <xsl:if test="./field/@name = 'prov_site_tag'">
+         <dc:description><xsl:value-of select="./field[@name='prov_site_tag']" /></dc:description>
+        </xsl:if>
+       </dc:source>
+      </xsl:if>
       <xsl:if test="./field/@name = 'name'">
        <foaf:name><xsl:value-of select="./field[@name='name']" /></foaf:name>
       </xsl:if>
@@ -46,14 +64,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <xsl:if test="./field/@name = 'docid'">
        <dc:identifier><xsl:value-of select="./field[@name='docid']" /></dc:identifier>
       </xsl:if>
-      <xsl:if test="./field/@name = 'prov_source'">
-       <dc:source><xsl:value-of select="./field[@name='prov_source']" /></dc:source>
+      <xsl:for-each select="./field">
+       <xsl:if test="./@name = 'document_history'">
+        <dc:hasVersion><xsl:value-of select="." /></dc:hasVersion>
+       </xsl:if>
+      </xsl:for-each>
+      <xsl:if test="./field/@name = 'provider_source'">
+       <dc:source>
+  		<xsl:attribute name="rdf:resource">
+         <xsl:value-of select="./field[@name='provider_source']" />
+        </xsl:attribute>
+       </dc:source>
+      </xsl:if>
+      <xsl:if test="./field/@name = 'prov_doc_last_update'">
+       <dc:dateSubmitted>
+       	<dc:date>
+       	 <xsl:value-of select="./field[@name='prov_doc_last_update']" />
+       	</dc:date>
+       </dc:dateSubmitted>
       </xsl:if>
      </foaf:Person>
     </xsl:if>
   </xsl:for-each>
 </rdf:RDF>
-
 </xsl:template>
-
 </xsl:stylesheet>
