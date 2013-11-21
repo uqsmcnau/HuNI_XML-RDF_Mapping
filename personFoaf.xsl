@@ -15,7 +15,7 @@
      <foaf:Person>
       <xsl:if test="./field/@name = 'prov_source'">
        <dc:source>
-  		<xsl:attribute name="rdf:resource">
+  		  <xsl:attribute name="rdf:resource">
          <xsl:value-of select="./field[@name='prov_source']" />
         </xsl:attribute>
         <xsl:if test="./field/@name = 'prov_site_long'">
@@ -71,16 +71,16 @@
       </xsl:for-each>
       <xsl:if test="./field/@name = 'provider_source'">
        <dc:source>
-  		<xsl:attribute name="rdf:resource">
+  		  <xsl:attribute name="rdf:resource">
          <xsl:value-of select="./field[@name='provider_source']" />
         </xsl:attribute>
        </dc:source>
       </xsl:if>
       <xsl:if test="./field/@name = 'prov_doc_last_update'">
        <dc:dateSubmitted>
-       	<dc:date>
+        <dc:date>
        	 <xsl:value-of select="./field[@name='prov_doc_last_update']" />
-       	</dc:date>
+        </dc:date>
        </dc:dateSubmitted>
       </xsl:if>
      </foaf:Person>
