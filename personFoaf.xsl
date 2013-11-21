@@ -25,12 +25,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:if>
       <xsl:if test="./field/@name = 'date_begin'">
        <bio:Birth>
-        <bio:date><xsl:value-of select="./field[@name='date_begin']" /></bio:date>
+        <dc:date><xsl:value-of select="./field[@name='date_begin']" /></dc:date>
        </bio:Birth>
       </xsl:if>
       <xsl:if test="./field/@name = 'date_end'">
        <bio:Death>
-        <bio:date><xsl:value-of select="./field[@name='date_end']" /></bio:date>
+        <dc:date><xsl:value-of select="./field[@name='date_end']" /></dc:date>
        </bio:Death>
       </xsl:if>
       <xsl:if test="./field/@name = 'bio'">
