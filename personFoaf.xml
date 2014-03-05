@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="personFoaf.xsl" ?>
+<add xmlns:d="urn:isbn:1-931666-33-4" xmlns:relation="urn:isbn:1-931666-22-9">
+  <doc>
+    <field name="type">Person</field>
+    <field name="prov_source">http://www.findandconnect.gov.au/nsw/biogs/NE00347b.htm</field>
+    <field name="prov_site_short">FCNS</field>
+    <field name="prov_site_address">http://www.findandconnect.gov.au/nsw</field>
+    <field name="prov_site_long">Find and Connect NSW</field>
+    <field name="prov_site_tag">The Find and Connect web resource is for Forgotten Australians, Former Child Migrants and everyone with an interest in the history of out-of-home 'care' in Australia.</field>
+    <field name="family_name">Ardill</field>
+    <field name="given_name">George Edward</field>
+    <field name="date_begin">1857-01-01T00:00:00Z</field>
+    <field name="date_end">1945-12-31T00:00:00Z</field>
+    <field name="occupation">Philanthropist</field>
+    <field name="bio">George Edward Ardill was an evangelical preacher and formidable and energetic organiser of private charity in Sydney. He established the Sydney Rescue Work Society and the Society for Providing Homes for Neglected Children and, through them and other societies, ran babies and children's homes, women's refuges, female rescue homes, temperance homes, lying-in homes and hospitals. He also sat on the Aborigines' Protection Board.</field>
+    <field name="docid">FCNS***person***NE00347</field>
+    <field name="prov_doc_last_update">2013-10-30T12:00:00Z</field>
+    <field name="document_history">http://data.huni.net.au/aggregate/2013-10-17/FCNS/solr/FCNS:::person:::NE00347.xml</field>
+    <field name="provider_source">http://data.huni.net.au/aggregate/2013-10-17/FCNS/clean/FCNS:::person:::NE00347.xml</field>
+  </doc>
+</add>
