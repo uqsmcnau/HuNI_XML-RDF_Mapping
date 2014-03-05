@@ -1,0 +1,31 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:huni="http://localhost/">
+  <huni:Concept>
+    <huni:prov_source>
+    http://www.findandconnect.gov.au/act/biogs/AE00007b.htm</huni:prov_source>
+    <huni:prov_site_short>FCAC</huni:prov_site_short>
+    <huni:prov_site_address>
+    http://www.findandconnect.gov.au/act</huni:prov_site_address>
+    <huni:prov_site_long>Find and Connect ACT</huni:prov_site_long>
+    <huni:prov_site_tag>The Find and Connect web resource is for
+    Forgotten Australians, Former Child Migrants and everyone with
+    an interest in the history of out-of-home 'care' in
+    Australia.</huni:prov_site_tag>
+    <huni:name>Adoption of Children Ordinance 1938
+    (Cth)</huni:name>
+    <huni:date_begin>1938-01-01T00:00:00Z</huni:date_begin>
+    <huni:date_end>1938-12-31T00:00:00Z</huni:date_end>
+    <huni:description>The Adoption of Children Ordinance 1938 was
+    Commonwealth legislation that regulated adoption of children in
+    the ACT for the first time. This Ordinance was repealed by the
+    Adoption of Children Ordinance 1965 (Cth).</huni:description>
+    <huni:docid>FCAC***concept***AE00007</huni:docid>
+    <huni:prov_doc_last_update>
+    2013-10-30T12:00:00Z</huni:prov_doc_last_update>
+    <huni:document_history>
+    http://data.huni.net.au/aggregate/2013-10-17/FCAC/solr/FCAC:::concept:::AE00007.xml</huni:document_history>
+    <huni:provider_source>
+    http://data.huni.net.au/aggregate/2013-10-17/FCAC/clean/FCAC:::concept:::AE00007.xml</huni:provider_source>
+  </huni:Concept>
+</rdf:RDF>
+

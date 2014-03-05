@@ -1,0 +1,126 @@
+<AFIRC>
+	<Artefact>
+		Annual_report, Clippings_file, DVD, DVD_Research_Folder, Festival_Catalogue, Journal, Journal_article, Monograph, Music_LP, Newspaper_Atricle, Poster, Script, Serial, Special_issue, Still
+	</Artefact>
+</AFIRC>
+<AMHD>
+</AMHD>
+<AWAP>
+	<Artefact>culturalArtefact</Artefact>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+	<Place>place</Place>
+</AWAP>
+<Austage>
+	<Person>huni_contributors</Person>
+	<Event>huni_events</Event>
+	<Artefact>item</Artefact>
+	<Venue>venue</Venue>
+</Austage>
+<CircusOz>
+	<Act>huni_acts</Act>
+	<Collection>huni_collections</Collection>
+	<Person>huni_performers</Person>
+	<Videos>huni_videos</Videos>
+</CircusOz>
+<DAAO>
+	<Organisation>corporateBody</Organisation>>
+	<Person>person</Person>
+</DAAO>
+<EMEL>
+	<Concept>concept</Concept>
+	<Artefact>culturalArtefact</Artefact>
+	<Person>person</Person>
+	<Place>place</Place>
+</EMEL>
+<EOAS>
+	<Artefact>culturalArtefact</Artefact>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+	<Place>place</Place>
+</EOAS>
+<FCAC>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Place>place</Place>
+</FCAC>
+<FCNA>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+</FCNA>
+<FCNS>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+</FCNS>
+<FCNT>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+	<Place>place</Place>
+</FCNT>
+<FCQD>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+</FCQD>
+<FCSA>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+	<Place>place</Place>
+</FCSA>
+<FCTS>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+</FCTS>
+<FCVC>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+	<Place>place</Place>
+</FCVC>
+<FCWA>
+	<Concept>concept</Concept>
+	<Event>event</Event>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+</FCWA>
+<GOLD>
+
+</GOLD>
+<MAP>
+
+</MAP>
+<PSDC>
+	<Artefact>item</Artefact>
+	<Collection>collection</Collection>
+	<Person>person</Person>
+</PSDC>
+<SAUL>
+	<Artefact>culturalArtefact</Artefact>
+	<Concept>concept</Concept>
+	<Organisation>corporateBody</Organisation>
+	<Event>event</Event>
+	<Person>person</Person>
+	<Place>place</Place>
+</SAUL>
+<WALL>
+	<Artefact>culturalArtefact</Artefact>
+	<Concept>concept</Concept>
+	<Organisation>corporateBody</Organisation>
+	<Person>person</Person>
+</WALL>

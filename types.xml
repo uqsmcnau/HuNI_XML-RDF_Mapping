@@ -1,0 +1,69 @@
+<Act>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		
+	</Properties>
+</Act>
+<Artefact>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		title, description, physdesc, subject, date_begin, date_end, name, description
+	</Properties>
+</Artefact>
+<Bibliography>
+
+</Bibliography>
+<Collection>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source
+		
+	</Properties>
+</Collection>
+<Concept>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		name, description, date_begin, date_end
+	</Properties>
+</Concept>
+<Event>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		name, date_begin, date_end, description
+	</Properties>
+</Event>
+<Film>
+
+</Film>
+<Organisation>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		date_begin, date_end, description, name, address, suburb
+	</Properties>
+</Organisation>
+<Person>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		family_name, given_name, date_begin, date_end, occupation, bio
+	</Properties>
+</Person>
+<Place>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		name, date_begin, date_end, description
+	</Properties>
+</Place>
+<Production>
+
+</Production>
+<Venue>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source,
+		name, address, latitude, longitude, suburb
+	</Properties>
+</Venue>
+<Videos>
+	<Properties>
+		type, prov_source, prov_site_short, prov_site_address, prov_site_long, prov_site_tag, docid, prov_doc_last_update, document_history, provider_source
+		
+	</Properties>
+</Videos>

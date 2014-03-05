@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
+<add xmlns:d="urn:isbn:1-931666-33-4" xmlns:relation="urn:isbn:1-931666-22-9">
+  <doc>
+    <field name="type">Concept</field>
+    <field name="prov_source">http://www.findandconnect.gov.au/act/biogs/AE00007b.htm</field>
+    <field name="prov_site_short">FCAC</field>
+    <field name="prov_site_address">http://www.findandconnect.gov.au/act</field>
+    <field name="prov_site_long">Find and Connect ACT</field>
+    <field name="prov_site_tag">The Find and Connect web resource is for Forgotten Australians, Former Child Migrants and 
+      everyone with an interest in the history of out-of-home 'care' in Australia.
+    </field>
+    <field name="name">Adoption of Children Ordinance 1938 (Cth)</field>
+    <field name="date_begin">1938-01-01T00:00:00Z</field>
+    <field name="date_end">1938-12-31T00:00:00Z</field>
+    <field name="description">The Adoption of Children Ordinance 1938 was Commonwealth legislation that regulated adoption of children in the ACT for the first time. This Ordinance was repealed by the Adoption of Children Ordinance 1965 (Cth).</field>
+    <field name="docid">FCAC***concept***AE00007</field>
+    <field name="prov_doc_last_update">2013-10-30T12:00:00Z</field>
+  	<field name="document_history">http://data.huni.net.au/aggregate/2013-10-17/FCAC/solr/FCAC:::concept:::AE00007.xml</field><field name="provider_source">http://data.huni.net.au/aggregate/2013-10-17/FCAC/clean/FCAC:::concept:::AE00007.xml</field>
+  </doc>
+</add>
